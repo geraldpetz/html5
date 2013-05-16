@@ -1,0 +1,52 @@
+body 
+{
+    font-family:Verdana;
+    font-size:10pt;
+}
+
+h1
+{
+    font-family:Verdana;
+}
+
+section
+{
+    overflow:hidden;
+}
+
+article
+{
+    margin:2px;
+    padding:2px;
+    float:inherit;
+    border: solid 1px #ccc;  
+    overflow:hidden;
+    position:relative;
+}
+
+article header, section header  
+{
+    width: 540px;  
+    color:Gray;
+}  
+  
+  
+nav
+{
+    border: solid 1px #ccc;  
+    float:left;
+    height:100%;
+}
+
+nav:after
+{
+    clear:both;
+}
+
+
+nav ul li {
+    line-height:24px;
+    text-align:left;
+    text-decoration:none;
+    width:100px;
+}
